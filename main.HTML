@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <!-- <h1> </h1>   <img src=""  width="" height=""/>  -->    
+ <!--   --> 
 
 <html lang="ru">
 
@@ -11,7 +12,7 @@
        <meta name="twitter:title" content="MDN Web Docs" />
        <meta property="og:title" content="MDN Web Docs" />
        <link rel="shortcut icon" href="https://cdn.icon-icons.com/icons2/2338/PNG/512/travel_icon_142598.png" />
-       <link rel="mnt" href="style.css">
+       <link rel="stylesheet" href="style.css">
 
 
 
@@ -21,34 +22,40 @@
 
 
     <body>
-        <div class="Shapka">
-          <img src=""  width="" height=""/>
-
-
-
+        <div class="Shapka"  >
+          <img src="https://i.pinimg.com/originals/74/e2/1b/74e21bec1bf0b8b2272cf1ee3e11677c.png"  width= 100% height=100%/>
         </div>
 
     
-
-           <nav class="top-menu">
-            <ul class="menu-main">
-              <li><a href="main.HTML" class="current">Домашняя страница</a></li>
-              <li><a href="marshr.HTML">Маршруты</a></li>
-              <li><a href="weather.HTML">Погода</a></li>
-              <li><a href="Guide.HTML">Гайды</a></li>
-            </ul>
-          </nav>
-
+        <!-- Нав. меню  --> 
+        <nav id="topnav">
+          <a id="logo" class="nav-link-logo" > World Hike </a>
+          <a class="nav-link" href="main.HTML">Home</a>
+          <!-- Можно убрать кст Home, и сделать ссылку на домашнюю страницу лого World Hike  --> 
+          <a class="nav-link" href="marshr.HTML">Routes</a>
+          <a class="nav-link" href="weather.HTML">Weather</a>
+          <a class="nav-link" href="Guide.HTML">Guides</a>
+          <a class="nav-link" href="Gallery.HTML">Gallery</a>
+          <a class="nav-link2" href="us.HTML">About us</a>
+       </nav>
+          <!-- Основной контент  --> 
           <main> 
             <br><br><br><br><br><br><br><br><br>
-
-
-
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A040619cbca5e286fb6e7b7b713887c680608f59ba9112440b62b7c2e512e8d1e&amp;width=834&amp;height=470&amp;lang=ru_RU&amp;scroll=true"></script>
+            <br><br><br><br><br><br><br><br><br>
           </main>
 
-
+          <!-- Подвал :)  --> 
           <div class="foot" >
-            <p>meooowwww</p>
+            <!-- Контакты, можно еще FAQ добавить  -->
+            <h3>| Contacts</h3>
+            <ul>
+              <li>+7 777 xxx xxxx</li>
+              <li>+7 777 xxx xxxx</li>
+              <li>г.Алматы, Республика Казахстан</li>
+            </ul>
+
+            <p>| Защищенно святой верой</p>
 
 
           </div>
@@ -58,3 +65,4 @@
 
 
 </html>
+
