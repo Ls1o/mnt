@@ -13,7 +13,43 @@
        <meta property="og:title" content="MDN Web Docs" />
        <link rel="shortcut icon" href="https://cdn.icon-icons.com/icons2/2338/PNG/512/travel_icon_142598.png" />
        <link rel="stylesheet" href="style.css">
-
+       <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .mission {
+            border: 2px solid yellow;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #fff9c4;
+            width: 60%;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .left, .right {
+            flex: 1;
+            padding: 20px;
+            background-color: #fff;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .left {
+            border-right: 2px solid rgba(255, 255, 255, 0.5);
+        }
+        .right {
+            text-align: center;
+        }
+    </style>
 
 
 
@@ -35,12 +71,36 @@
           <a class="nav-link" href="weather.HTML">Weather</a>
           <a class="nav-link" href="Guide.HTML">Guides</a>
           <a class="nav-link" href="Gallery.HTML">Gallery</a>
-          <a class="nav-link2" href="us.HTML">About us</a>
+          <a class="nav-link2" style="color:DarkBlue;" href="us.HTML">About us</a>
        </nav>
           <!-- Основной контент  --> 
           <main> 
             <br><br><br><br><br><br><br><br><br>
             <!-- Информация о нас и о нашем проекте  -->
+            <div class="mission">
+              <h2>👋 Welcome to the team! Our mission is to…</h2>
+              <ul>
+                  <li>Выжить</li>
+                  <li>не спиться</li>
+                  <li>помочь Ване не спиться</li>
+                  <li>сделать сайт</li>
+                  <li>Сделать сайт не корявым</li>
+                  <li>по возможности частично рабочим</li>
+              </ul>
+          </div>
+      
+          <div class="container">
+              <div class="left">
+                  <h3>О нас</h3>
+                  <p>Айзек Вибл - грин тайд что возомнил себя лучше клоуна, расист, нацист , эсэсовец, радикал</p>
+                  <hr style="border: none; height: 1px; background-color: rgba(255, 255, 255, 0.5);">
+                  <p>Альфредо Харди - ноженка, не зря играет за Научного Руководителя</p>
+              </div>
+              <div class="right">
+                  <h3>Бюджет Семёна</h3>
+                  <p>1.5 Амира</p>
+              </div>
+          </div>
           </main>
 
           <!-- Подвал :)  --> 
