@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+
+
+/* */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+}
+
+/*Шапка */
+.Shapka {
+  margin: 0;
+  padding-top: 55px;
+  width: 100%;
+  height: 383px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  
+}
+
+/*Навигационное меню */
+#topnav {
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background-color: Black;
+
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/*Кнопка в меню */
+.nav-link {
+  display: inline-block;
+  width: 100px;
+  height: 55px;
+
+  color: White;
+
+  /* centering text */
+  text-align: center;    /* horizontally */
+  line-height: 55px;     /* vertically */
+  
+  text-decoration: none;
+  
+}
+
+#logo {
+  width: 120px;
+
+  background-color: rgb(28, 182, 79);
+  
+  font-weight: bold;
+}
+
+
+/*Кнопка при наведении */
+.nav-link:hover {
+  background-color:rgb(38, 165, 74);
+  transition: 0.7s;
+}
+
+.nav-link2:hover {
+  background-color:rgb(38, 165, 74);
+  transition: 0.7s;
+}
+
+
+/* Для лого */
+.nav-link-logo {
+  display: inline-block;
+  width: 100px;
+  height: 55px;
+
+  color: White;
+
+  /* centering text */
+  text-align: center;    /* horizontally */
+  line-height: 55px;     /* vertically */
+  
+  text-decoration: none;
+}
+
+
+/* Активное сосстояние кнопки*/
+.nav-link:active {
+  background-color: #00ffaa;
+}
+
+.nav-link2:active {
+  background-color: #00ffaa;
+}
+
+
+/* подвал любимый */
+.foot {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-around;
+  background: rgb(28, 180, 79);
+  font-family: Arial, sans-serif ;
+  font-size: 15px;
+}
+
+/* Impact, fantasy
+Arial, sans-serif */ 
+
+.nav-link2{
+  display: inline-block;
+  width: 100px;
+  height: 55px;
+
+  color: White;
+
+  /* centering text */
+  text-align: center;    /* horizontally */
+  line-height: 55px;     /* vertically */
+  
+  text-decoration: none;
+  position: absolute;
+   top: 0;
+   right: 0;
+}
+
+
+/* Список маршрутов*/
+.Spisok-Routes{
+  background-color: Black;
+  flex-direction: row;
+  font-family: Arial Black;
+  font-size: 50px;
+  color: #00ffaa;
+  
+}
+
+/* Стиль иконки перед названием маршрута*/
+.Route2{
+  list-style-type: "⛰️";
+  font-size: 30px;
+}
+
+/* Название маршрута*/
+/* P.S. надо убрать нижнее подчеркивание со ссылки на маршрут */
+.Route{
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 30px;
+  
+  left: 50%;
+  right: 50%;
+}
